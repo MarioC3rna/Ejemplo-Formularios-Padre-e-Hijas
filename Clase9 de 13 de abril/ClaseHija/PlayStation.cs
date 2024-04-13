@@ -7,13 +7,15 @@ using System.Threading.Tasks;
 
 namespace Clase9_de_13_de_abril.ClaseHija
 {
-    internal class PlayStation:ClsConsola
+    
+      internal class Playstation : ClsConsola
     {
-     public string ModeloControlador{  get; set; }
-        public string MostrarDetallesPlay()
+        public string ModeloControlador { get; set; }
+
+        public String MostrarDetallePlay()
         {
+    
             return MostrarDetalles() + "Controlador:" + ModeloControlador;
         }
-
-    }
+      }
 }
